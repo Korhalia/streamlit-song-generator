@@ -103,6 +103,105 @@ def make_composition_plan(
 
 
 st.set_page_config(page_title="Song Generator", page_icon="🎵")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background:
+            radial-gradient(ellipse at top left, #39235f 0%, transparent 45%),
+            linear-gradient(135deg, #11111c 0%, #191529 55%, #10131d 100%);
+        color: #f8f7fc;
+    }
+
+    .block-container {
+        max-width: 1050px;
+        padding-top: 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero-card {
+        padding: 3rem 2rem;
+        margin: 1rem 0 2rem;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 24px;
+        background: linear-gradient(
+            135deg,
+            rgba(124, 58, 237, 0.34),
+            rgba(236, 72, 153, 0.15),
+            rgba(18, 18, 31, 0.8)
+        );
+        box-shadow: 0 18px 55px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero-kicker {
+        color: #d8b4fe;
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+    }
+
+    .hero-title {
+        margin: 0.7rem 0;
+        color: #ffffff;
+        font-size: clamp(2.4rem, 7vw, 4.5rem);
+        font-weight: 800;
+        line-height: 1.05;
+    }
+
+    .hero-copy {
+        max-width: 620px;
+        margin: 0 auto 1.6rem;
+        color: #e4dfed;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .hero-button {
+        display: inline-block;
+        padding: 0.85rem 1.4rem;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #a855f7, #ec4899);
+        color: white !important;
+        font-weight: 700;
+        text-decoration: none !important;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .hero-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(168, 85, 247, 0.35);
+    }
+
+    @media (max-width: 600px) {
+        .hero-card {
+            padding: 2.2rem 1.2rem;
+        }
+
+        .hero-copy {
+            font-size: 1rem;
+        }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
+    <section class="hero-card">
+        <div class="hero-kicker">Your idea. Your sound.</div>
+        <h1 class="hero-title">Make a song out of it.</h1>
+        <p class="hero-copy">
+            Pick a mood, choose a style, and turn your idea into original lyrics
+            and a song you can listen to.
+        </p>
+        <a class="hero-button" href="#song-controls">Create Your Song ↓</a>
+    </section>
+    """,
+    unsafe_allow_html=True,
+)
 st.title("🎵 Song Generator")
 st.caption("Create original lyrics, then turn them into a sung song.")
 
