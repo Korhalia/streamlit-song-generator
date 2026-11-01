@@ -345,3 +345,29 @@ if audio_bytes:
     st.caption(
         "The music model may not reproduce every lyric exactly as written."
     )
+    st.markdown("---")
+st.header("Pricing")
+st.caption("Choose the plan that fits your creative flow.")
+
+free, creator, studio = st.columns(3)
+
+with free:
+    st.subheader("Free")
+    st.markdown("## $0")
+    st.write("2 songs per month")
+    st.write("Create original lyrics")
+    st.button("Get started", key="free_plan", use_container_width=True)
+
+with creator:
+    st.subheader("Creator")
+    st.markdown("## $9 / month")
+    st.write("25 songs per month")
+    st.write("Create and listen to your songs")
+    st.button("Choose Creator", key="creator_plan", use_container_width=True)
+
+with studio:
+    st.subheader("Studio")
+    st.markdown("## $19 / month")
+    st.write("75 songs per month")
+    st.write("For frequent song creators")
+    st.button("Choose Studio", key="studio_plan", use_container_width=True)
