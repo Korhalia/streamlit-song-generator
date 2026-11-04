@@ -152,11 +152,14 @@ st.markdown(
     }
 
     .hero-copy {
-        max-width: 620px;
-        margin: 0 auto 1.6rem;
-        color: #e4dfed;
-        font-size: 1.1rem;
-        line-height: 1.6;
+    max-width: 620px;
+    margin: 0 auto 1.6rem;
+    color: #a0a4d0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
     }
 
     .hero-button {
