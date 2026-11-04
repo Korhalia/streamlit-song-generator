@@ -112,7 +112,8 @@ st.markdown(
             radial-gradient(ellipse at top left, #39235f 0%, transparent 45%),
             linear-gradient(135deg, #11111c 0%, #191529 55%, #10131d 100%);
         color: #f8f7fc;
-    }
+    } 
+    
 st.markdown(
     """
     <style>
