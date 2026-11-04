@@ -124,7 +124,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
- }
+   }
     .block-container {
         max-width: 1050px;
         padding-top: 2.5rem;
