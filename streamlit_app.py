@@ -143,6 +143,8 @@ st.markdown(
 
 )
 
+)
+
    }
     .block-container {
         max-width: 1050px;
