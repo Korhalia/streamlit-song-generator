@@ -354,7 +354,29 @@ if audio_bytes:
     )
     st.caption(
         "The music model may not reproduce every lyric exactly as written."
-    )
+    ) 
+    st.markdown(
+    """
+    <style>
+    .st-key-studio_plan button {
+        background-color: #7c3aed !important;
+        color: #ffffff !important;
+        border: 1px solid #a78bfa !important;
+        border-radius: 10px !important;
+    }
+
+    .st-key-studio_plan button:hover {
+        background-color: #6d28d9 !important;
+        color: #ffffff !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown("---")
+st.header("Pricing")
+
     st.markdown("---")
 st.header("Pricing")
 st.caption("Choose the plan that fits your creative flow.")
