@@ -119,7 +119,7 @@ st.markdown(
         padding-top: 2.5rem;
         padding-bottom: 3rem;
     }
-    st.markdown(
+   st.markdown(
     """
     <style>
     .stApp {
@@ -137,6 +137,8 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True,
+)
+
 )
 
 )
