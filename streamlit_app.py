@@ -189,20 +189,23 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown(
-    """
-    <section class="hero-card">
-        <div class="hero-kicker">Your idea. Your sound.</div>
-        <h1 class="hero-title">Make a song out of it.</h1>
-        <p class="hero-copy" style="text-align: center;">
+import textwrap  # Add this near the other imports at the top of the file
 
-            Pick a mood, choose a style, and turn your idea into original lyrics
-            and a song you can listen to.
-        </p>
-        <a class="hero-button" href="#song-controls">Create Your Song ↓</a>
+st.markdown(
+    textwrap.dedent("""
+    <section class="hero-card">
+      <div class="hero-kicker">Your idea. Your sound.</div>
+      <h1>Create a song out of it</h1>
+      <p class="hero-copy" style="text-align: center;">
+        Pick a mood, choose a style, and turn your idea into original lyrics
+        and a song you can listen to.
+      </p>
+      <a class="hero-button" href="#song-controls">Create Your Song</a>
     </section>
-    """,
+    """),
     unsafe_allow_html=True,
+)
+
 )
 st.title("♫ Sonnetide")
 
