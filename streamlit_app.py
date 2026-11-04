@@ -376,9 +376,6 @@ if audio_bytes:
 
 st.markdown("---")
 st.header("Pricing")
-
-st.markdown("---")
-st.header("Pricing")
 st.caption("Choose the plan that fits your creative flow.")
 
 free, creator, studio = st.columns(3)
@@ -398,37 +395,8 @@ with creator:
     st.button("Choose Creator", key="creator_plan", use_container_width=True)
 
 with studio:
-    st.subheader("Studio") 
-    st.markdown(
-    """
-    <style>
-    .stButton > button,
-    .stFormSubmitButton > button,
-    .stDownloadButton > button,
-    .stLinkButton > a,
-    a[class*="button"] {
-        background-color: #7c3aed !important;
-        color: #ffffff !important;
-        border: 1px solid #a78bfa !important;
-        border-radius: 10px !important;
-    }
-
-    .stButton > button:hover,
-    .stFormSubmitButton > button:hover,
-    .stDownloadButton > button:hover,
-    .stLinkButton > a:hover,
-    a[class*="button"]:hover {
-        background-color: #6d28d9 !important;
-        color: #ffffff !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-   with studio:
     st.subheader("Studio")
     st.markdown("## $19 / month")
     st.write("75 songs per month")
     st.write("For frequent song creators")
     st.button("Choose Studio", key="studio_plan", use_container_width=True)
-
