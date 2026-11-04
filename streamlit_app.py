@@ -200,8 +200,10 @@ st.markdown(
       <div class="hero-kicker">Your idea. Your sound.</div>
       <h1>Create a song out of it</h1>
       <p class="hero-copy" style="text-align: center;">
-        Pick a mood, choose a style, and turn your idea into original lyrics
-        and a song you can listen to.
+       <p class="hero-copy">
+    Pick a mood, choose a style, and turn your idea into an original song with custom lyrics.
+</p>
+
       </p>
       <a class="hero-button" href="#song-controls">Create Your Song</a>
     </section>
