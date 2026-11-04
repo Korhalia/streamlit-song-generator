@@ -102,7 +102,7 @@ def make_composition_plan(
     return {"chunks": chunks}
 
 
-st.set_page_config(page_title="Sonnetide", page_icon="🎵")
+st.set_page_config(page_title="Sonnetide", page_icon="🎵"
 )
 st.markdown(
     """
