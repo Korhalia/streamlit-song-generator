@@ -135,13 +135,7 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True,
-
-   }
-    .block-container {
-        max-width: 1050px;
-        padding-top: 2.5rem;
-        padding-bottom: 3rem;
-    }
+)
 
     .hero-card {
         padding: 3rem 2rem;
