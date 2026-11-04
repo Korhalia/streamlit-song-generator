@@ -203,8 +203,8 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-st.title("🎵    st.title("Sonnetide")
-")
+st.title("♫ Sonnetide")
+
 st.caption("Create original lyrics, then turn them into a sung song.")
 
 openai_key = get_secret("OPENAI_API_KEY")
