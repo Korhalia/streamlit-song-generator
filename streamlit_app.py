@@ -425,7 +425,10 @@ with studio:
     """,
     unsafe_allow_html=True,
 )
+   with studio:
+    st.subheader("Studio")
     st.markdown("## $19 / month")
     st.write("75 songs per month")
     st.write("For frequent song creators")
     st.button("Choose Studio", key="studio_plan", use_container_width=True)
+
