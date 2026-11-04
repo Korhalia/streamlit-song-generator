@@ -195,20 +195,19 @@ st.markdown(
 import textwrap  # Add this near the other imports at the top of the file
 
 st.markdown(
-    textwrap.dedent("""
+    """
     <section class="hero-card">
-      <div class="hero-kicker">Your idea. Your sound.</div>
-      <h1>Create a song out of it</h1>
-      <p class="hero-copy" style="text-align: center;">
-       <p class="hero-copy">
-    Pick a mood, choose a style, and turn your idea into an original song with custom lyrics.
-</p>
-
-      </p>
-      <a class="hero-button" href="#song-controls">Create Your Song</a>
+        <div class="hero-kicker">Your idea. Your sound.</div>
+        <h1>Create a song out of it</h1>
+        <p class="hero-copy" style="text-align: center; max-width: 620px; margin: 12px auto 20px;">
+            Pick a mood, choose a style, and turn your idea into an original song with custom lyrics.
+        </p>
+        <a class="hero-button" href="#song-controls">Create Your Song</a>
     </section>
-    """),
+    """,
     unsafe_allow_html=True,
+)
+
 )
 
 
