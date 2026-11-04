@@ -194,7 +194,8 @@ st.markdown(
     <section class="hero-card">
         <div class="hero-kicker">Your idea. Your sound.</div>
         <h1 class="hero-title">Make a song out of it.</h1>
-        <p class="hero-copy">
+        <p class="hero-copy" style="text-align: center;">
+
             Pick a mood, choose a style, and turn your idea into original lyrics
             and a song you can listen to.
         </p>
