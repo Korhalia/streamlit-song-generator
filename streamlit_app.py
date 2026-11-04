@@ -377,7 +377,7 @@ if audio_bytes:
 st.markdown("---")
 st.header("Pricing")
 
-    st.markdown("---")
+st.markdown("---")
 st.header("Pricing")
 st.caption("Choose the plan that fits your creative flow.")
 
