@@ -186,7 +186,23 @@ st.markdown(
         .hero-copy {
             font-size: 1rem;
         }
-    }
+    } 
+    .hero-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #8B5CF6, #6D28D9) !important;
+    color: #FFFFFF !important;
+    border: 1px solid #C4B5FD !important;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.hero-button:hover {
+    background: #A78BFA !important;
+    border-color: #FFFFFF !important;
+}
+
     </style>
     """,
     unsafe_allow_html=True,
