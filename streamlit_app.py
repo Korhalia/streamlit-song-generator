@@ -119,8 +119,19 @@ st.markdown(
         padding-top: 2.5rem;
         padding-bottom: 3rem;
     }
-  
-    </style>
+      
+        );
+        box-shadow: 0 18px 55px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero-kicker {
+        color: #d8b4fe;
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+    }
+</style>
     """,
     unsafe_allow_html=True,
 )
@@ -135,18 +146,6 @@ st.markdown(
             rgba(124, 58, 237, 0.34),
             rgba(236, 72, 153, 0.15),
             rgba(18, 18, 31, 0.8)
-        );
-        box-shadow: 0 18px 55px rgba(0, 0, 0, 0.25);
-    }
-
-    .hero-kicker {
-        color: #d8b4fe;
-        font-size: 0.85rem;
-        font-weight: 700;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-    }
-
     .hero-title {
         margin: 0.7rem 0;
         color: #ffffff;
