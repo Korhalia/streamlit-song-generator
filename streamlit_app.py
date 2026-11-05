@@ -395,6 +395,27 @@ div[data-testid="stButton"] button:focus {
 }
 </style>
 """, unsafe_allow_html=True)
+st.markdown("""
+<style>
+.stApp [data-testid="stButton"] button,
+.stApp [data-testid="stLinkButton"] a,
+.stApp button {
+    background: #6D28D9 !important;
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+    border: 2px solid #C4B5FD !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    opacity: 1 !important;
+}
+
+.stApp [data-testid="stButton"] button *,
+.stApp [data-testid="stLinkButton"] a * {
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.markdown("---")
 st.header("Pricing")
