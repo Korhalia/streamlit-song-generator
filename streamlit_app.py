@@ -106,22 +106,6 @@ st.set_page_config(page_title="Sonnetide", page_icon="🎵"
 )
 st.markdown(
     """
-    .stApp div[data-testid="stButton"] > button,
-.stApp div[data-testid="stDownloadButton"] > button,
-.stApp a[data-testid="stLinkButton"] {
-    background: #6D28D9 !important;
-    color: #FFFFFF !important;
-    border: 1px solid #C4B5FD !important;
-    border-radius: 10px !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-}
-
-.stApp div[data-testid="stButton"] > button p,
-.stApp div[data-testid="stDownloadButton"] > button p {
-    color: #FFFFFF !important;
-}
-
     <style>
     .stApp {
         background:
