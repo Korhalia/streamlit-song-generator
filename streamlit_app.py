@@ -392,6 +392,41 @@ st.header("Pricing")
 st.caption("Choose the plan that fits your creative flow.")
 
 free, creator, studio = st.columns(3)
+# Step 1: Wrap your existing Get started section
+with st.container(key="tour_target_0"):
+    # Move your existing Get started heading, text, and controls here
+    st.subheader("Get started")
+    # Your existing code goes here
+
+
+# Step 2 and 3: Wrap each plan card
+studio_col, creator_col = st.columns(2)
+
+with studio_col:
+    with st.container(key="tour_target_1"):
+        # Move your existing Studio card and choose button here
+        st.subheader("Studio")
+        # Your existing Studio code goes here
+
+with creator_col:
+    with st.container(key="tour_target_2"):
+        # Move your existing Creator card and choose button here
+        st.subheader("Creator")
+        # Your existing Creator code goes here
+
+
+# Step 4: Wrap your existing full-lyrics generator
+with st.container(key="tour_target_3"):
+    # Move your existing full-lyrics heading and generate button here
+    st.subheader("Generate full lyrics")
+    # Your existing lyrics-generation code goes here
+
+
+# Step 5: Wrap your existing full-song generator
+with st.container(key="tour_target_4"):
+    # Move your existing full-song heading and generate button here
+    st.subheader("Generate full song")
+    # Your existing song-generation code goes here
 
 with free:
     st.subheader("Free")
