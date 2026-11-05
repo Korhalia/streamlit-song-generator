@@ -124,7 +124,6 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
     .hero-card {
         padding: 3rem 2rem;
         margin: 1rem 0 2rem;
