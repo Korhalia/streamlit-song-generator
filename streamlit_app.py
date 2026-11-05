@@ -106,35 +106,6 @@ st.set_page_config(page_title="Sonnetide", page_icon="🎵"
 )
 st.markdown(
     """
-    /* Make Streamlit buttons and button-style links visible */
-.stApp button,
-.stApp [data-testid="stButton"] button,
-.stApp [data-testid="stLinkButton"] a,
-.stApp a.hero-button,
-.stApp a[role="button"] {
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
-    min-height: 44px;
-    padding: 10px 18px;
-    background: linear-gradient(135deg, #8B5CF6, #6D28D9) !important;
-    color: #FFFFFF !important;
-    border: 1px solid #C4B5FD !important;
-    border-radius: 10px !important;
-    font-weight: 700 !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    text-decoration: none !important;
-}
-
-.stApp button:hover,
-.stApp [data-testid="stLinkButton"] a:hover,
-.stApp a.hero-button:hover,
-.stApp a[role="button"]:hover {
-    background: #A78BFA !important;
-    border-color: #FFFFFF !important;
-}
-
     <style>
     .stApp {
         background:
