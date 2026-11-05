@@ -106,9 +106,6 @@ st.set_page_config(page_title="Sonnetide", page_icon="🎵"
 )
 st.markdown(
     """
-   st.markdown("""
-<style>
- 
     <style>
     .stApp {
         background:
