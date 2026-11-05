@@ -106,6 +106,12 @@ st.set_page_config(page_title="Sonnetide", page_icon="🎵"
 )
 st.markdown(
     """
+    st.markdown("""
+<style>
+/* Put your existing CSS rules here */
+</style>
+""", unsafe_allow_html=True)
+
     <style>
     .stApp {
         background:
