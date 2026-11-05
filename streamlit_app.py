@@ -369,29 +369,32 @@ if audio_bytes:
         "The music model may not reproduce every lyric exactly as written."
     ) 
     st.markdown("""<style>
-div.st-key-tour_get_started button,
-div.st-key-tour_choose_studio button,
-div.st-key-tour_choose_creator button,
-div.st-key-tour_full_lyrics button,
-div.st-key-tour_full_song button {
-    border: 3px solid #ffd43b !important;
-    box-shadow: 0 0 14px rgba(255, 212, 59, 0.8) !important;
+<style>
+/* Make Streamlit buttons easy to see */
+div[data-testid="stButton"] button {
+    background-color: #6D28D9 !important;
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+    border: 2px solid #C4B5FD !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    opacity: 1 !important;
 }
-    .st-key-studio_plan button {
-        background-color: #7c3aed !important;
-        color: #ffffff !important;
-        border: 1px solid #a78bfa !important;
-        border-radius: 10px !important;
-    }
 
-    .st-key-studio_plan button:hover {
-        background-color: #6d28d9 !important;
-        color: #ffffff !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+/* Keep the button text visible */
+div[data-testid="stButton"] button * {
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
+
+/* Hover and keyboard focus */
+div[data-testid="stButton"] button:hover,
+div[data-testid="stButton"] button:focus {
+    background-color: #5B21B6 !important;
+    border-color: #FFFFFF !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.markdown("---")
 st.header("Pricing")
