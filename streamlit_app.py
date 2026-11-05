@@ -370,6 +370,19 @@ if audio_bytes:
     ) 
     st.markdown(
     """
+    st.markdown("""
+<style>
+div.st-key-tour_get_started button,
+div.st-key-tour_choose_studio button,
+div.st-key-tour_choose_creator button,
+div.st-key-tour_full_lyrics button,
+div.st-key-tour_full_song button {
+    border: 3px solid #ffd43b !important;
+    box-shadow: 0 0 14px rgba(255, 212, 59, 0.8) !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
     <style>
     .st-key-studio_plan button {
         background-color: #7c3aed !important;
