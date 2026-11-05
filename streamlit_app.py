@@ -106,41 +106,6 @@ st.set_page_config(page_title="Sonnetide", page_icon="🎵"
 )
 st.markdown(
     """
-    /* Make headings and page text easier to read */
-.stApp h1,
-.stApp h2,
-.stApp h3,
-.stApp [data-testid="stMarkdownContainer"] p,
-.stApp label,
-.stApp [data-testid="stWidgetLabel"] {
-    color: #F5F0FF !important;
-    opacity: 1 !important;
-}
-
-/* Highlight Get Started, Creator, and Studio buttons */
-.stApp [data-testid="stButton"] button,
-.stApp [data-testid="stLinkButton"] a {
-    background: linear-gradient(135deg, #8B5CF6, #6D28D9) !important;
-    color: #FFFFFF !important;
-    border: 1px solid #C4B5FD !important;
-    border-radius: 10px !important;
-    min-height: 44px;
-    font-weight: 700 !important;
-    opacity: 1 !important;
-}
-
-.stApp [data-testid="stButton"] button *,
-.stApp [data-testid="stLinkButton"] a * {
-    color: #FFFFFF !important;
-    opacity: 1 !important;
-}
-
-.stApp [data-testid="stButton"] button:hover,
-.stApp [data-testid="stLinkButton"] a:hover {
-    background: #A78BFA !important;
-    border-color: #FFFFFF !important;
-}
-
     <style>
     .stApp {
         background:
